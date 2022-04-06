@@ -1,0 +1,304 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media-watermarkPackageTests.xctest/Contents/MacOS/media-watermarkPackageTests",
+      "productName" : "media-watermarkPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "swiftCommands" : {
+    "C.media-watermark-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaElement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaImageProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaItem.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaVideoProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Assets.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Images.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/BlurFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ColorFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderParamManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderProvider.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SepiaFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SobelFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ThresholdFilter.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/FilterProcessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/GraphicContext.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/MediaFilter.swift"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "media_watermark",
+      "moduleOutputPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.swiftmodule",
+      "objects" : [
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaElement.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaImageProcessor.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaItem.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaProcessor.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaVideoProcessor.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Extensions/Assets.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Extensions/Images.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/BlurFilter.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/ColorFilter.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/FilterShaderParamManager.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/FilterShaderProvider.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/SepiaFilter.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/SobelFilter.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/ThresholdFilter.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/FilterProcessor.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/GraphicContext.swift.o",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/MediaFilter.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/index/store",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/media-watermark-Swift.h",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaElement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaImageProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaItem.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Core/MediaVideoProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Extensions/Assets.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Extensions/Images.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/BlurFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/ColorFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/FilterShaderParamManager.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/FilterShaderProvider.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/SepiaFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/SobelFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/Effects/ThresholdFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/FilterProcessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/GraphicContext.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/Classes/Filters/MediaFilter.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaElement.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaImageProcessor.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaItem.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaProcessor.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaVideoProcessor.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Assets.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Images.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/BlurFilter.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ColorFilter.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderParamManager.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderProvider.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SepiaFilter.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SobelFilter.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ThresholdFilter.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/FilterProcessor.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/GraphicContext.swift",
+        "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/MediaFilter.swift"
+      ],
+      "tempsPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.media-watermarkTests-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "importPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/Tests/media-watermarkTests/media_watermarkTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.swiftmodule"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "media_watermarkTests",
+      "moduleOutputPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermarkTests.swiftmodule",
+      "objects" : [
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermarkTests.build/media-watermarkTests/media_watermarkTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-swift-version",
+        "5",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/index/store",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-Onone",
+        "-enable-testing",
+        "-g",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics"
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermarkTests.build/media-watermarkTests/media_watermarkTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermarkTests.swiftmodule"
+        }
+      ],
+      "sources" : [
+        "/Users/atacand1920/Documents/Work/media-watermark/Tests/media-watermarkTests/media_watermarkTests.swift"
+      ],
+      "tempsPath" : "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermarkTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

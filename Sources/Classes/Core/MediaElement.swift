@@ -5,7 +5,7 @@
 //  Created by Sergei on 03/05/2017.
 //  Copyright © 2017 rubygarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public enum MediaElementType {
@@ -37,3 +37,4 @@ public class MediaElement {
         type = .text
     }
 }
+#endif

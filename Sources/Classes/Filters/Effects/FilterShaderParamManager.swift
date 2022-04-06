@@ -5,7 +5,7 @@
 //  Created by sergey on 5/10/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import Metal
 import MetalKit
 import MetalPerformanceShaders
@@ -57,3 +57,4 @@ class FilterShaderParamManager {
         thresholdFilter.encode(commandBuffer: configuration.commandBuffer!, sourceTexture: configuration.sourceTexture!, destinationTexture: configuration.destinationTexture!)
     }
 }
+#endif

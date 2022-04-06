@@ -5,7 +5,7 @@
 //  Created by sergey on 5/10/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import Foundation
 
 class FilterShaderProvider {
@@ -60,3 +60,4 @@ class FilterShaderProvider {
             "}"
     }
 }
+#endif

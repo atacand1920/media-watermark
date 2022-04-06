@@ -5,8 +5,9 @@
 //  Created by Sergei on 03/05/2017.
 //  Copyright © 2017 rubygarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
+
 import AVFoundation
 
 extension AVAsset {
@@ -46,3 +47,4 @@ extension AVAsset {
         return portraits.contains(contentOrientation)
     }
 }
+#endif

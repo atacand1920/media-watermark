@@ -16,4 +16,3 @@ public class SepiaFilter: MediaFilter {
         hasCustomShader = true
     }
 }
-

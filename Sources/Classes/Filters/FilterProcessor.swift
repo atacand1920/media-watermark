@@ -5,8 +5,9 @@
 //  Created by sergey on 4/19/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
+
 import Metal
 import MetalKit
 import MetalPerformanceShaders
@@ -105,3 +106,4 @@ public class FilterProcessor: NSObject, MTKViewDelegate {
         renderTimesCount += 1
     }
 }
+#endif

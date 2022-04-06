@@ -5,7 +5,7 @@
 //  Created by Sergei on 03/05/2017.
 //  Copyright © 2017 rubygarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 extension MediaProcessor {
@@ -49,3 +49,4 @@ extension MediaProcessor {
         completion(MediaProcessResult(processedUrl: nil, image: newImage), nil)
     }
 }
+#endif

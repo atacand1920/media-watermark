@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1649279818, 191700935]
+build_end_time: [1649279824, 944666862]
+inputs:
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaElement.swift": !private [1649279414, 39421081]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaImageProcessor.swift": !private [1649279414, 39535045]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaItem.swift": !private [1649279414, 39661884]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaProcessor.swift": !private [1649279414, 39762020]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaVideoProcessor.swift": !private [1649279414, 39906024]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Assets.swift": !private [1649279414, 40055990]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Images.swift": !private [1649279414, 40185451]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/BlurFilter.swift": !private [1649279414, 40373802]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ColorFilter.swift": !private [1649279414, 40479183]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderParamManager.swift": !private [1649279414, 40581703]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderProvider.swift": !private [1649279414, 40689945]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SepiaFilter.swift": !private [1649279414, 40782451]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SobelFilter.swift": !private [1649279414, 40866374]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ThresholdFilter.swift": !private [1649279414, 40959835]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/FilterProcessor.swift": !private [1649279414, 41081905]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/GraphicContext.swift": !private [1649279414, 41182041]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/MediaFilter.swift": !private [1649279414, 41274309]

@@ -1,0 +1,4 @@
+module media_watermark {
+    header "/Users/atacand1920/Documents/Work/media-watermark/.build/arm64-apple-macosx/debug/media_watermark.build/media-watermark-Swift.h"
+    requires objc
+}

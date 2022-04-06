@@ -5,7 +5,7 @@
 //  Created by sergey on 4/19/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public class ColorFilter: MediaFilter {
@@ -22,3 +22,4 @@ public class ColorFilter: MediaFilter {
         hasCustomShader = true
     }
 }
+#endif

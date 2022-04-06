@@ -5,7 +5,7 @@
 //  Created by sergey on 4/19/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import Foundation
 import Metal
 import MetalKit
@@ -31,3 +31,4 @@ public class GraphicContext {
         }      
     }
 }
+#endif

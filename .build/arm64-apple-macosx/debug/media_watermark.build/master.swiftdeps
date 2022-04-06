@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
+options: "8f91f5c080ee05dfa082fbbdc06113a444cc9a4781f02ab54a8aa8fd08142ceb"
+build_start_time: [1649280683, 987987041]
+build_end_time: [1649280684, 138283967]
+inputs:
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaElement.swift": [1649280630, 983479022]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaImageProcessor.swift": [1649280477, 736180305]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaItem.swift": [1649280470, 948267459]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaProcessor.swift": [1649280626, 968416213]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Core/MediaVideoProcessor.swift": [1649280456, 735808372]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Assets.swift": [1649280415, 492363929]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Extensions/Images.swift": [1649280409, 338031291]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/BlurFilter.swift": [1649280681, 652935981]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ColorFilter.swift": [1649280450, 900244235]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderParamManager.swift": [1649280652, 545429229]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/FilterShaderProvider.swift": [1649280447, 326709270]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SepiaFilter.swift": [1649280175, 249693393]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/SobelFilter.swift": [1649280431, 372339248]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/Effects/ThresholdFilter.swift": [1649280427, 460764169]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/FilterProcessor.swift": [1649280421, 474237442]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/GraphicContext.swift": [1649280610, 581428050]
+  "/Users/atacand1920/Documents/Work/media-watermark/Sources/Classes/Filters/MediaFilter.swift": [1649279988, 985319137]

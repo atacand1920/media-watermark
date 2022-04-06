@@ -7,6 +7,7 @@
 //
 
 import Metal
+#if canImport(UIKit)
 import UIKit
 
 let kImageBitsPerComponent: Int = 8
@@ -114,3 +115,4 @@ extension UIImage {
         return UIImage(cgImage: cgImage)
     }
 }
+#endif

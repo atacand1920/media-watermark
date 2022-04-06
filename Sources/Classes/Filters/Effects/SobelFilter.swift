@@ -5,7 +5,7 @@
 //  Created by sergey on 5/11/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public class SobelFilter: MediaFilter {
@@ -17,3 +17,4 @@ public class SobelFilter: MediaFilter {
         name = kSobelFilterName
     }
 }
+#endif

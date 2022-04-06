@@ -5,7 +5,7 @@
 //  Created by jowkame on 5/11/18.
 //  Copyright © 2018 RubyGarage. All rights reserved.
 //
-
+#if canImport(UIKit)
 import UIKit
 
 public class BlurFilter: MediaFilter {
@@ -21,3 +21,4 @@ public class BlurFilter: MediaFilter {
         name = kBlurFilterName
     }
 }
+#endif

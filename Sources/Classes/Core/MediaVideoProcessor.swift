@@ -6,7 +6,9 @@
 //  Copyright © 2017 rubygarage. All rights reserved.
 //
 
+#if canImport(UIKit)
 import UIKit
+
 import AVFoundation
 
 let kMediaContentDefaultScale: CGFloat = 1
@@ -147,3 +149,4 @@ extension MediaProcessor {
         return rotation
     }
 }
+#endif
