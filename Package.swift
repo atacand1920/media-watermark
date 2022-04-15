@@ -27,10 +27,6 @@ let package = Package(
             name: "media-watermark",
             dependencies: [],
             path: "Sources"),
-        .testTarget(
-            name: "media-watermarkTests",
-            dependencies: ["media-watermark"],
-            path: "Tests"),
     ],
     swiftLanguageVersions: [.v5]
 )
