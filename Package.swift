@@ -14,6 +14,7 @@ let package = Package(
         .library(
             name: "media-watermark",
             targets: ["media-watermark"]),
+            .library(name: "media-watermarkTests",targets: ["media-watermarkTests"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -26,6 +27,10 @@ let package = Package(
             name: "media-watermark",
             dependencies: [],
             path: "Sources"),
+        .testTarget(
+            name: "media-watermarkTests",
+            dependencies: ["media-watermark"],
+            path: "Tests"),
     ],
     swiftLanguageVersions: [.v5]
 )
